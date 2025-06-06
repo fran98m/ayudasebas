@@ -32,4 +32,3 @@ if __name__ == '__main__':
         renombrar_archivos_en_directorio(ruta_directorio)
     else:
         logging.error(f'La ruta especificada {ruta_directorio} no es un directorio')
-        print(f'Error: La ruta especificada {ruta_directorio} no es un directorio')
